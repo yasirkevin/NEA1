@@ -8,6 +8,7 @@ namespace Implementation1
     {
         delegate float NeuronOperation(dynamic input, float weight);
 
+        // All of the following are simple internal neurons which just apply a trigonometrical function on the input sum and forward it to the next neuron.
         static float Hyptan(dynamic input, float weight)
         {
             return (Math.Tanh(input.Sum()));

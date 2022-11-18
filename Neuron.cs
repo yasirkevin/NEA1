@@ -6,7 +6,7 @@ namespace Implementation1
 {
     public class Neuron
     {
-        public Func<dynamic, int, float> operation { private set; get; }
+        public Func<dynamic, int, float> operation { private set; get; } // Neuron stores a method
 
         Neuron(Func<dynamic, int, float> operation)
         {
