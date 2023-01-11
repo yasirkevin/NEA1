@@ -11,7 +11,7 @@ namespace Implementation1
         public Map(int sizeX, int sizeY)
         {
             this.map = new dynamic[sizeX, sizeY];
-        }
+        } 
 
         /// <summary>
         /// Set the value of a position in the map to a specified object

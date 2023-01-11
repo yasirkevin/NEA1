@@ -16,7 +16,7 @@ namespace Implementation1
         {
             Random rnd = new Random();
 
-            return (rnd.Next(0, 1));
+            return (rnd.Next(0, 1)); 
         }
 
         /// <summary>

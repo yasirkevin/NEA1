@@ -36,7 +36,7 @@ namespace Implementation1
 
             return (new Genome(genes));
         }
-
+         
         /// <summary>
         /// This method returns a Genome with mixed genes from the current Genome and the target Genome.
         /// </summary>

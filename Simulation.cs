@@ -13,7 +13,7 @@ namespace Implementation1
         public float[] xData { private set; get; }
         public float[] yData { private set; get; }
 
-        public Simulation()
+        public Simulation() 
         {
             entities = 
 

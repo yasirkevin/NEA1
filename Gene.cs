@@ -8,7 +8,7 @@ namespace Implementation1
     {
         public string code { set; get; }
         public NeuronConnection connection { private set; get; }
-
+         
         public int inputType { private set; get; }
         public int outputType { private set; get; } 
         public int weight { private set; get; }

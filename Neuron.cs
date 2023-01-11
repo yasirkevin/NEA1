@@ -11,6 +11,6 @@ namespace Implementation1
         Neuron(Func<dynamic, int, float> operation)
         {
             this.operation = operation;
-        }
+        } 
     }
 }

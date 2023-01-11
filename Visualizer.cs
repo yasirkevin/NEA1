@@ -58,7 +58,7 @@ namespace Implementation1
         public void Draw()
         {
             g.Clear(Color.White);
-            
+             
             foreach (Entity entity in simulation.entities)
             {
                 Color color = GetEntityColor(entity);

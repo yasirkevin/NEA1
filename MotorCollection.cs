@@ -30,7 +30,7 @@ namespace Implementation1
                 en.Move(1, 0);
             }
         }
-        static void Mvl(dynamic inp, Entity en)
+        static void Mvl(dynamic inp, Entity en) 
         {
             if (inp != null)
             {

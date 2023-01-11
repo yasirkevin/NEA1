@@ -15,5 +15,5 @@ namespace Implementation1
             this.input = input;
             this.output = output;
         }
-    }
+    } 
 }

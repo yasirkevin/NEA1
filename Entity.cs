@@ -11,7 +11,7 @@ namespace Implementation1
     {
         public Genome genome { private set; get; }
         public Vector2 position { private set; get; }
-
+         
         public Vector2 lastPosition { private set; get; }
         public int age { private set; get; } // Age is incremented by 1 every step in a generation
 

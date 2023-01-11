@@ -22,7 +22,7 @@ namespace Implementation1
         static float Hypsin(dynamic input, float weight)
         {
             return (Math.Sinh(input.Sum()));
-        }
+        } 
 
         NeuronOperation[] operations = { InternalCollection.Hyptan, InternalCollection.Hypcos, InternalCollection.Hypsin };
     }
