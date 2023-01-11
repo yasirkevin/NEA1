@@ -19,12 +19,12 @@ namespace Implementation1
 
         public Entity(Genome genome, Vector2 position, Map map)
         {
-            this.genome = genome;
-            this.position = position;
-            this.map = map;
+            this.genome     = genome;
+            this.position   = position;
+            this.map        = map;
 
-            this.age = 0;
-            this.lastPosition = position;
+            this.age            = 0;
+            this.lastPosition   = position;
         }
 
         /// <summary>

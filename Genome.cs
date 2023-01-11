@@ -25,7 +25,7 @@ namespace Implementation1
         /// Randomly generates a Genome of the specified length using the Rand() method of Gene.
         /// </summary>
         /// <returns></returns>
-        public Genome Rand(int length, List<Neuron> sensoryColl, List<Neuron> internalColl, List<Neuron> motorColl)
+        public static Genome Rand(int length, List<Neuron> sensoryColl, List<Neuron> internalColl, List<Neuron> motorColl)
         {
             List<Gene> genes = new List<Gene>(); // Initialise empty list of neurons
 

@@ -19,9 +19,9 @@ namespace Implementation1
         /// 
         public Gene(string code, NeuronConnection connection, int weight)
         {
-            this.code = code;
+            this.code       = code;
             this.connection = connection;
-            this.weight = weight;
+            this.weight     = weight;
         }
 
         public Gene(string code, List<Neuron> sensoryColl, List<Neuron> internalColl, List<Neuron> motorColl)

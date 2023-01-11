@@ -7,10 +7,14 @@ namespace Implementation1
     public class Map
     {
         public dynamic[,] map { private set; get; } // 2D array which can have null values or entities or obstacles, etc
-    
+        public int sizeX { private set; get; } 
+        public int sizeY { private set; get; }
+
         public Map(int sizeX, int sizeY)
         {
-            this.map = new dynamic[sizeX, sizeY];
+            this.map    = new dynamic[sizeX, sizeY];
+            this.sizeX  = sizeX;
+            this.sizeY  = sizeY;
         } 
 
         /// <summary>
