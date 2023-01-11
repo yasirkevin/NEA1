@@ -4,7 +4,7 @@ using System.Text;
 using System.Numerics;
 namespace Implementation1
 {
-    class Map
+    public class Map
     {
         public dynamic[,] map { private set; get; } // 2D array which can have null values or entities or obstacles, etc
     

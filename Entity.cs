@@ -7,7 +7,7 @@ using System.Numerics;
 
 namespace Implementation1
 {
-    class Entity
+    public class Entity
     {
         public Genome genome { private set; get; }
         public Vector2 position { private set; get; }

@@ -8,6 +8,9 @@ namespace Implementation1
     {
         public string code { set; get; }
         public NeuronConnection connection { private set; get; }
+
+        public int inputType { private set; get; }
+        public int outputType { private set; get; } 
         public int weight { private set; get; }
 
         /// <summary>
@@ -39,18 +42,27 @@ namespace Implementation1
             if (connectionType == 0)
             {
                 connection = new NeuronConnection(sensoryColl[index1 % sensoryColl.Count], motorColl[index2 % motorColl.Count]);
+                inputType = 0;
+                outputType = 1;
             }
             else if (connectionType == 1)
             {
                 connection = new NeuronConnection(sensoryColl[index1 % sensoryColl.Count], internalColl[index2 % internalColl.Count]);
+                inputType = 0;
+                outputType = 0;
+
             }
             else if (connectionType == 2)
             {
                 connection = new NeuronConnection(internalColl[index1 % internalColl.Count], internalColl[index2 % internalColl.Count]);
+                inputType = 1;
+                outputType = 0;
             }
             else
             {
                 connection = new NeuronConnection(internalColl[index1 % internalColl.Count], motorColl[index2 % motorColl.Count]);
+                inputType = 1;
+                outputType = 1;
             }
 
             this.connection = connection;
